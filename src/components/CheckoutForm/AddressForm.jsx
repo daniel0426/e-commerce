@@ -22,14 +22,12 @@ const AddressForm = ({checkoutToken, next}) => {
 
     const fetchShippingCountries = async (checkoutTokenId) => {
         const {countries} = await commerce.services.localeListShippingCountries(checkoutTokenId);
-        console.log(countries)
         setShippingCountries(countries);
         setShippingCountry(Object.keys(countries)[0]);
     }  
 
     const fetchSubdivisions = async (countryCode)=> { 
         const {subdivisions} = await commerce.services.localeListSubdivisions(countryCode)
-        console.log(subdivisions)
         setShippingSubdivisions(subdivisions)
         setShippingSubdivision(Object.keys(subdivisions)[0])
     }
@@ -41,9 +39,6 @@ const AddressForm = ({checkoutToken, next}) => {
        setShippingOption(options[0].id);
 
     }
-
-
-    
 
     useEffect(()=> {
         fetchShippingCountries(checkoutToken.id);
@@ -104,7 +99,7 @@ const AddressForm = ({checkoutToken, next}) => {
                     </Grid>
                     <br/>
                     <div style={{display:'flex', justifyContent:'space-between'}}>
-                        <Button component={Link} to='/cart' variant="outlined" >Back to Cart</Button>
+                        <Button component={Link} to='/cart'  variant="outlined"  >Back to Cart</Button>
                         <Button type='submit' variant='contained' color='primary'>Next</Button>
                     </div>
                 </form>

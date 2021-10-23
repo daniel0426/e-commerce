@@ -1,12 +1,10 @@
 import React from 'react'
-import { Typography, Button, Card, CardActions, CardContent, CardMedia } from '@material-ui/core'
-import {Link} from 'react-router-dom'
+import { Typography, Button, CardActions, CardContent, CardMedia } from '@material-ui/core'
 import useStyles from './styles'
 
 const CartItem = ({item, onUpdate, onRemove}) => {
 
     const classes = useStyles()
-    console.log(item)
     return (
         <div>
             <CardMedia image={item.image.url} alt={item.name} className={classes.media} />
@@ -20,7 +18,7 @@ const CartItem = ({item, onUpdate, onRemove}) => {
                     <Typography>{item.quantity}</Typography>
                     <Button type='button' size='small' onClick={()=> onUpdate(item.id, item.quantity +1)}>+</Button>
                 </div>
-                <Button component={Link} to="/checkout"  variant='contained' type='button' color='secondary' onClick={()=> onRemove(item.id)}>Remove</Button>
+                <Button  variant='contained' type='button' color='secondary' onClick={()=> onRemove(item.id)}>Remove</Button>
             </CardActions>
         </div>
     )

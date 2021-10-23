@@ -5,7 +5,6 @@ import CartItem from './CartItem/CartItem';
 import {Link} from 'react-router-dom';
 
 const Cart = ({cart, onUpdate, onRemove, onEmpty}) => {
-    console.log(cart)
     const classes = useStyles()
 
     const EmptyCart = ()=> (
