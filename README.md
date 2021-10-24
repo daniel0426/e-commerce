@@ -7,6 +7,9 @@ DEMO LINK => https://all-in-tect.netlify.app/
 ## App overview 
 
 ![스크린샷 2021-10-24 오후 3 11 39](https://user-images.githubusercontent.com/57770612/138577707-71bfe42a-4507-4458-9605-5650cd4596ef.png)
+![스크린샷 2021-10-24 오후 3 31 06](https://user-images.githubusercontent.com/57770612/138577753-12c84259-7b9a-4e58-b304-8f647348bd99.png)
+![스크린샷 2021-10-24 오후 3 31 16](https://user-images.githubusercontent.com/57770612/138577759-66d35271-dce0-4686-82a6-fb843a84ec64.png)
+
 
 ---
 
