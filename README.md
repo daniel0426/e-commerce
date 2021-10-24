@@ -4,7 +4,10 @@
 <br>
 DEMO LINK => https://all-in-tect.netlify.app/
 
-![ALL IN TECH]("")
+## App overview 
+
+![스크린샷 2021-10-24 오후 3 11 39](https://user-images.githubusercontent.com/57770612/138577707-71bfe42a-4507-4458-9605-5650cd4596ef.png)
+
 ---
 
 ## 🔗 Index
@@ -15,9 +18,6 @@ DEMO LINK => https://all-in-tect.netlify.app/
 
 ---
 
-## App overview 
-
-![스크린샷 2021-10-24 오후 3 11 39](https://user-images.githubusercontent.com/57770612/138577707-71bfe42a-4507-4458-9605-5650cd4596ef.png)
 
 ## 1. Purpose of this projecct
 
