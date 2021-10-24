@@ -40,7 +40,7 @@ const PaymentForm  = ({checkoutToken, shippingData, backStep, onCaptureCheckout,
                 }
             }
             
-             onCaptureCheckout(checkoutToken.id, orderData);
+            onCaptureCheckout(checkoutToken.id, orderData);
             timeout(); 
             nextStep()
         }
@@ -56,6 +56,7 @@ const PaymentForm  = ({checkoutToken, shippingData, backStep, onCaptureCheckout,
                     {({elements, stripe})=> (
                         <form onSubmit={(e)=> handleSubmit(e, elements, stripe)}>
                             <CardElement />
+                            <Typography style={{marginTop: '1em'}} variant='subtitle1' color='secondary'> For testing purpose, enter 4242 4242 4242 4242 in cardNumber</Typography>
                             <br/> <br/>
                             <div style={{display: 'flex', justifyContent:'space-between'}}>
                                 <Button variant='outlined' onClick={backStep}>Back</Button>

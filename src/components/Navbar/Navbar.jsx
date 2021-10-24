@@ -6,9 +6,7 @@ import {
   Badge,
   Typography,
 } from "@material-ui/core";
-import { ShoppingCart } from "@material-ui/icons";
-
-import logo from "../../assets/logo.jpeg";
+import { ShoppingCart,ImportantDevicesOutlined } from "@material-ui/icons";
 import useStyles from "./styles";
 import { Link, useLocation } from "react-router-dom";
 
@@ -25,15 +23,11 @@ const Navbar = ({ totalItems }) => {
             to="/"
             variant="h6"
             className={classes.title}
-            color="inherit"
+            color="primary"
           >
-            <img
-              src={logo}
-              alt="Commerce.js"
-              height="25px"
-              className={classes.image}
-            />
-            Come Us
+         
+            <ImportantDevicesOutlined color="primary" style={{marginRight:'10px'}}/>
+            ALL IN TECH
           </Typography>
           <div className={classes.grow} />
           {location.pathname === "/" && (

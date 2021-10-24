@@ -9,26 +9,27 @@ const Cart = ({cart, onUpdate, onRemove, onEmpty}) => {
 
     const EmptyCart = ()=> (
             <Typography variant="subtitle1">You have no items in your shopping cart, 
+                <br/>
                 <Link to='/' className={classes.link}>start adding some!</Link>
             </Typography>
     )
 
     const FilledCart = ()=> {
         return <>
-            <Grid container spacing={3}>
+            <Grid container spacing={6}>
                 {cart.line_items.map((item)=> (
-                    <Grid item xs={12} sm={4} key={item.id}>
+                    <Grid item xs={12} sm={6} md={4} key={item.id}>
                         <CartItem item ={item} onUpdate={onUpdate} onRemove={onRemove} />
                     </Grid>
                 ))}
             </Grid>
             <div className={classes.cardDetails}>
-                    <Typography variant="h4"> 
+                    <Typography variant="h5"> 
                         Subtotal: {cart.subtotal.formatted_with_symbol}
                     </Typography>
                     <div>
-                        <Button className={classes.emptyButton} size='large' type='button' variant="contained" color="secondary" onClick={onEmpty}>Empty Cart</Button>
-                        <Button component={Link} to ='/checkout' className={classes.checkoutButton} size='large' type='button' variant="contained" color="primary">Checkout</Button>
+                        <Button className={classes.emptyButton} size='medium' type='button' variant="contained" color="secondary" onClick={onEmpty}>Empty Cart</Button>
+                        <Button component={Link} to ='/checkout' className={classes.checkoutButton} size='medium' type='button' variant="contained" color="primary">Checkout</Button>
                     </div>
             </div>
         </>
