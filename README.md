@@ -2,7 +2,7 @@
 
 => Tech E-commerse web application 
 <br>
-DEMO LINK => https://all-in-tect.netlify.app/
+DEMO LINK => https://all-in-tech.netlify.app/
 
 ## App overview 
 
