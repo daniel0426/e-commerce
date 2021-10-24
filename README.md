@@ -1,70 +1,54 @@
-# Getting Started with Create React App
+# ALL IN TECH 
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+=> Tech E-commerse web application 
+DEMO LINK => https://all-in-tect.netlify.app/
 
-## Available Scripts
+![ALL IN TECH](file:///Users/sadministrator/Desktop/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202021-10-24%20%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE%203.11.39.png)
+---
 
-In the project directory, you can run:
+## 🔗 Index
+1. [Purpose of this project](#1-Purpose-of-this-project)
+2. [Tech Stack](#2-Tech-Stack)
+3. [Issue](#3--Issue)
+4. [Things to Improvement](#6--Things-to-Improvement)
 
-### `yarn start`
+---
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## overview 
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
 
-### `yarn test`
+## 1. Purpose of this projecct
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- To make real e-commerce application using commerce.js and stripe
+- Practice Material UI for styling 
+- to learn how real e-commerce store handle with payment system 
 
-### `yarn build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## 2. Tech Stack 
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+1. React.js 
+2. Commerce.js
+3. Stripe
+4. Material UI 
 
-### `yarn eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## 3. 💥 Issue
+    - How to integrate react-hook-form and material ui 
+    => using <useFormContext and Controller> hook from react-hook-form to connect input field with material UI
+    - Usage of Stripe and Commerce.js was my first time, so read documentation of each one thoroughly
+  
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+## 4. 🚀 Things to Improvement
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+    - Implement more features (categories, filter) 
+    - Implement the records of products that users bought 
+    - Get used to use new API 
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+ 
 
-To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+  
